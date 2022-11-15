@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="4cb7f5b4-5de2-49be-89df-d2d35667dba5" name="数据中台hive Mapping">
+      <data-sources db="5d3d48b3-0377-4db0-8999-68f14bad57d0" ddl="c49e02e2-483d-49ef-a441-09245eb41a4a" />
+      <scope>
+        <node negative="1">
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+          <node kind="schema">
+            <name qname="ads" />
+            <name qname="ads_kudu" />
+            <name qname="cdpads" />
+            <name qname="cdpdm" />
+            <name qname="dwd" />
+            <name qname="dwd_db" />
+            <name qname="dwd_fan" />
+            <name qname="dws" />
+            <name qname="dws_fan" />
+            <name qname="flink_kudu" />
+            <name qname="ods" />
+            <name qname="ods_db" />
+            <name qname="ods_fan" />
+            <name qname="ods_kudu" />
+            <name qname="olap_fan" />
+            <name qname="price_adj" />
+            <name qname="rpt_fan" />
+            <name qname="stg" />
+            <name qname="stg_fan" />
+            <name qname="v_ads" />
+            <name qname="vads" />
+            <name qname="vmobile" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>
