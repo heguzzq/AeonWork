@@ -1,89 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="数据中台hive" uuid="5d3d48b3-0377-4db0-8999-68f14bad57d0">
-      <driver-ref>hive</driver-ref>
-      <synchronize>true</synchronize>
-      <remarks>生产环境</remarks>
-      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
-      <jdbc-url>jdbc:hive2://10.10.102.35:10000</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="数据中台impala" uuid="b7c7c3bb-db23-423f-b8e1-2bfa574f38ad">
+    <data-source source="LOCAL" name="数据中台impala" group="数据中台" uuid="b7c7c3bb-db23-423f-b8e1-2bfa574f38ad">
       <synchronize>true</synchronize>
       <configured-by-url>true</configured-by-url>
       <jdbc-driver>com.cloudera.impala.jdbc41.Driver</jdbc-driver>
       <jdbc-url>jdbc:impala://impala.aeonbuy.com:21050</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql002" uuid="7ec04177-ad86-4afd-b7ac-5ecf18100d5a">
+    <data-source source="LOCAL" name="mysql002" group="业务中台mysql" uuid="7ec04177-ad86-4afd-b7ac-5ecf18100d5a">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql002.mysql.database.chinacloudapi.cn:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://cndb02.aeonbuy.com :3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql004" uuid="938c6807-fd07-4608-84be-0a678e35c523">
+    <data-source source="LOCAL" name="mysql004" group="业务中台mysql" uuid="938c6807-fd07-4608-84be-0a678e35c523">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql004.mysql.database.chinacloudapi.cn:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://cndb04.aeonbuy.com:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql006" uuid="19c640fe-42b5-4ae4-9181-773340c3594e">
+    <data-source source="LOCAL" name="mysql006" group="业务中台mysql" uuid="19c640fe-42b5-4ae4-9181-773340c3594e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql006.mysql.database.chinacloudapi.cn:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql008" uuid="fb030d4c-e8cd-4f12-8790-fcf30812d630">
+    <data-source source="LOCAL" name="mysql008" group="PROFIT" uuid="fb030d4c-e8cd-4f12-8790-fcf30812d630">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql008.mysql.database.chinacloudapi.cn:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql010" uuid="d23005a1-123a-4463-a77a-211cf411d2a5">
+    <data-source source="LOCAL" name="mysql010" group="业务中台mysql" uuid="d23005a1-123a-4463-a77a-211cf411d2a5">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql010.mysql.database.chinacloudapi.cn:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql012" uuid="cdcc413f-04d8-4855-a847-cd2a0263bf94">
+    <data-source source="LOCAL" name="mysql012" group="业务中台mysql" uuid="cdcc413f-04d8-4855-a847-cd2a0263bf94">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql012.mysql.database.chinacloudapi.cn:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql12.mysql.database.chinacloudapi.cn:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql014" uuid="eb08f613-56f1-4a17-b893-8485c554a954">
+    <data-source source="LOCAL" name="mysql014" group="业务中台mysql" uuid="eb08f613-56f1-4a17-b893-8485c554a954">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql014.mysql.database.chinacloudapi.cn:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql016" uuid="9011d46d-e8dc-4594-956a-b80c8831b4a3">
+    <data-source source="LOCAL" name="mysql016" group="业务中台mysql" uuid="9011d46d-e8dc-4594-956a-b80c8831b4a3">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql016.mysql.database.chinacloudapi.cn:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql018" uuid="57acbed2-4bfe-4df1-b69f-382a7be10e42">
+    <data-source source="LOCAL" name="mysql018" group="业务中台mysql" uuid="57acbed2-4bfe-4df1-b69f-382a7be10e42">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql018.mysql.database.chinacloudapi.cn:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql18.mysql.database.chinacloudapi.cn:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="移动经营助手" uuid="b25f632d-5bd3-4165-a559-b7489806deb0">
+    <data-source source="LOCAL" name="移动经营助手" group="ClickHouse助手" uuid="b25f632d-5bd3-4165-a559-b7489806deb0">
       <driver-ref>clickhouse</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
       <jdbc-url>jdbc:clickhouse://clickhouse.aeonbuy.com:8123</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="profit" group="PROFIT" uuid="a240f03a-ab12-4db8-914f-6a46f1afcc36">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//10.100.205.31:1521/AEONCN</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="profit_acnuat" group="PROFIT" uuid="ade531fb-92c2-43f2-acf3-01c1187001fb">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//10.100.205.81:1521/ACNUAT</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="datp-prd-pas-e2-bisql002" group="SQL SERVER" uuid="f3558655-9f0b-4c14-b96a-fe06fd98af0d">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://datp-prd-pas-e2-bisql002.database.chinacloudapi.cn:1433;database=datp-prd-pas-e2-bisql002; user=midpdbadmin@datp-prd-pas-e2-bisql002;encrypt=true;trustServerCertificate=false; hostNameInCertificate=*.database.chinacloudapi.cn;loginTimeout=30;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="中台元数据库mysql" group="香港" uuid="aa2edbda-faa0-41cf-8bce-299a0eddc620">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://datp-prd-pas-e2-mysql05.mysql.database.chinacloudapi.cn:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="ZK Hive" group="数据中台" uuid="21e63efb-7743-4bad-b584-7312d0588473">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://datp-prd-vm-e2-hadoop003:2181,datp-prd-vm-e2-hadoop001:2181,datp-prd-vm-e2-hadoop002:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Tidb-dev2" group="CDP-TIDB" uuid="75c2d464-1cc7-418d-8bdf-84513d6333b5">
+      <driver-ref>tidb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.10.100.143:4000/cdpads?useUnicode=true&amp;characterEncoding=UTF-8&amp;allowMultiQueries=true&amp;rewriteBatchedStatements=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Tidb-prd" group="CDP-TIDB" uuid="3701d7bb-cee5-44d3-a619-54ff32695219">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.10.136.18:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="allowMultiQueries" value="TRUE" />
+        <property name="rewriteBatchedStatements" value="TRUE" />
+        <property name="useConfigs" value="maxPerformance" />
+        <property name="socketTimeout" value="7200" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="localhost" group="本地mysql" uuid="2af7aeb6-b8f8-4ffb-b750-07250e877a52">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@datp-prd-pas-e2-mysql05.mysql.database.chinacloudapi.cn" group="本地mysql" uuid="3f8628d5-fbd3-49e0-95fd-5753b25d5ff0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://datp-prd-pas-e2-mysql05.mysql.database.chinacloudapi.cn:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="mall供应商活动" group="mall外部连接" uuid="2eb0292f-a83e-46da-b36d-8abadebddc20">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.106.87.74:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="10.10.232.244" group="香港" uuid="e2d6c519-83f6-4953-a379-2ccb6054b67c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.10.232.244:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="数据中台-dev Hive" group="数据中台-dev" uuid="48ba3d87-c907-48b5-81a0-0f1f49a4fca5">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://datp-dev-vm-e2-hadoop011:2181,datp-dev-vm-e2-hadoop012:2181,datp-dev-vm-e2-hadoop013:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="数据中台dev impala" group="数据中台-dev" uuid="aa8f2dc3-d9d6-4a3d-9dac-28a70f05ddc1">
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.cloudera.impala.jdbc41.Driver</jdbc-driver>
+      <jdbc-url>jdbc:impala://10.10.100.143:21050</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@midp-prd-pas-e2-mysql006.mysql.database.chinacloudapi.cn" group="业务中台mysql" uuid="b83cf58b-8bab-4a33-9dfe-2048e3a59fa7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://midp-prd-pas-e2-mysql006.mysql.database.chinacloudapi.cn:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="mysql001" group="数据中台" uuid="774b954b-37d4-4478-90a1-b029c9db8c67">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://datp-prd-pas-e2-mysql01.mysql.database.chinacloudapi.cn    :3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@hk-clickhouse.aeonbuy.com" group="香港" uuid="92cdfab8-a0f6-46d6-8953-9508d9253deb">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://hk-clickhouse.aeonbuy.com:8123</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
